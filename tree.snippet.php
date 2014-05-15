@@ -3,7 +3,7 @@
  * Author: asvavilov
  * Product Name: tree
  * Product Version: 20140514
- * Product Description: tree resources for build menu, faster than Wayfinder and getResources
+ * Product Description: tree resources for fast build menu
 **/
 
 /*
