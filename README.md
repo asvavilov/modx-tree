@@ -5,6 +5,7 @@ optimized menu builder
 
 minimum db-queries
 
+---
 Author: asvavilov
 
 Product Name: tree
@@ -13,7 +14,7 @@ Product Version: 20140514
 
 Product Description: tree resources for build menu, faster than Wayfinder and getResources
 
-
+---
 example:
 
 [[tree
@@ -25,10 +26,12 @@ example:
     &level=\`2\`
 ]]
 
+---
 in chunk menu:
 
 tree.nodes - menu nodes
 
+---
 in chunk node:
 
 tree.node - resource
@@ -43,7 +46,7 @@ tree.node.first - first child?
 
 tree.node.last - last child?
 
-
+---
 // TODO учет контекстов в выборках
 
 // TODO оптимизация: не читать скрытые узлы
