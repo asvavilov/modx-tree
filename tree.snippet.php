@@ -114,7 +114,8 @@ if (!class_exists('ProfiTree'))
         {
             $submenu = '';
             $count = count($this->tree[$root_id]);
-            $pos = 1;
+            $start_pos = 1;
+            $pos = $start_pos;
             foreach ($this->tree[$root_id] as $node_id => $node)
             {
                 $is_active = (in_array($node_id, $this->breadcrumb) || $node_id == $this->id);
@@ -128,7 +129,7 @@ if (!class_exists('ProfiTree'))
                     $node['tv'] = $this->tvs[$node_id];
                 }
                 $node['level'] = $level;
-                if ($pos == 0)
+                if ($pos == $start_pos)
                 {
                     $node['first'] = true;
                 }
